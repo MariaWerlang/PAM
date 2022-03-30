@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DiceRollerImage</string>
+    <string name="txt">Insira um número de 1 a 6</string>
+    <string name="bnt">Roll</string>
+</resources>

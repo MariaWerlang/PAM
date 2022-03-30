@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice"
+        android:contentDescription="@string/bnt"/>
+
+    <Button
+        android:id="@+id/bnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/bnt" />
+
+    <TextView
+    android:id="@+id/txt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textSize="15sp"
+    android:text="@string/txt"/>
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:digits="1,2,3,4,5,6"
+        android:labelFor="@+id/edtNumber"
+        android:autofillHints="name"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
